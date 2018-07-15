@@ -1,0 +1,54 @@
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: 	#202020;
+  padding: 1rem;
+  font-weight: bold;
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.column{
+  flex:33.3%;
+  max-width:33.3%;
+}
+
+img{
+  width:100%;
+  height: auto;
+}
+
+figure{
+  width:100%;
+  height: auto;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+figcaption{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  color: 	#202020;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 40%;
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
